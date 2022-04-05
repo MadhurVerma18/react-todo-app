@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ .main {
+    min-height: 100vh;
+    background-color: rgb(5, 44, 30);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .app{
+      margin-top: 10vh;
+      height: 3.4rem;
+      text-align: center;
+  }
+  .addItem{
+      margin-top: 2rem;
+      }
+ input{
+     height: 2rem;
+     min-width: 20rem;
+     border: 0.1rem solid #ccc;
+     border-radius: 0.4rem;
+     font-weight: 700;
+     padding-left: 15px;
+ }
+ .addItem button{
+    height: 2rem;
+    width: 3rem;
+    border: 0.1rem solid #ccc;
+     border-radius: 0.4rem;
+     background-color: #fff;
+     font-weight: 700;
+     margin-left: 10px;
+}
+.addItem button:hover{
+    opacity: 0.8;
+}
+
+.displayItems{
+       margin-top: 3rem;
+        text-align: center;
+}
+
+.displayItem{
+    display: flex;
+  margin-top: 2px;
+    border: 0.1rem solid #ccc;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+}
+.displayItem  h3 {
+    padding-left: 5px;
+    color: black;
+}
+  .displayBtn button{
+    height: 2rem;
+    background-color: #fff;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;   
+ }
